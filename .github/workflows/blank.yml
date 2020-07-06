@@ -49,7 +49,7 @@ jobs:
             run: |
               mkdir dist
               mv README.md dist/README.md
-              zip -r my-artifact dist
+              zip -r my-artifact dist/
    
           - name: Upload Release Asset
             id: upload_release_asset 
